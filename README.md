@@ -1,35 +1,43 @@
-# Kotlin-Espresso-Sample
+# Android Test Automation Assessment (Kotlin-Espresso)
 
 ![](https://github.com/pot8os/Kotlin-Espresso-sample/workflows/Android%20CI/badge.svg)
 
-This is MVP project for Android app that is written in [Kotlin](https://github.com/JetBrains/kotlin) and uses [Espresso](https://developer.android.com/intl/ja/tools/testing-support-library/index.html#Espresso) to run both unit and instrumented tests.
+---
 
-## What you can learn from this project
+## 📌 Project Source & Attribution
+This repository is a fork of the open-source project [Kotlin-Espresso-sample](https://github.com/pot8os/Kotlin-Espresso-sample) originally authored by **Jogendra Singh**. This codebase is used as a base environment for our technical assessment under the **MIT License**.
 
-- How to **share test cases** between `Instrumented tests` and `unit tests`
-- Fundamental and practical methods that how to write Android code using [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) that brings `ViewModel`.
+---
 
-## Requirements
+## 🎯 Objective
+This quiz is designed to evaluate your ability to understand UI test automation using **Kotlin** and **Espresso** for Android applications. You will be assessed on your ability to understand an existing codebase, automate new scenarios, and apply design patterns (Page Object Model).
 
-- Run with Android Studio 4 (or newer)
+---
 
-## Target app
+## 💻 Instructions (Before our call)
 
-No need to explain about the app since you are familiar with this well.. :)
+### 1. Setup and Explore
+- Clone this repository. You may fork it to your own account to manage your changes.
+- Explore the project and ensure you can run the existing instrumented tests.
 
-<img src="img/screen.png" width="384">
+### 2. Automate a New Test Case
+Please implement a new test case to verify the **"AC" (All Clear)** button functionality. 
 
-## Run tests
+- **Requirement:** You must implement this using the **Page Object Pattern**.
+- **Test Logic:**
+    1. Perform some calculations or input numbers.
+    2. Click the **"AC"** button.
+    3. Verify that the display resets correctly.
 
-Requires a connected device to run `Instrumented tests`. It doesn't matter whether it's a simulator and a real one.
+### 3. Submission
+Please submit your test code or a link to your fork for review before our call. If you have any questions, feel free to reach out.
 
-### Using Android Studio
+---
 
-|   |Instrumented Tests|Unit Tests|
-|---|----------------------|-----------------------|
-|Gradle task name|`:app:connectedAndroidTest`<br/><br/>![Run Task](img/uitask.png)|`:app:testDebugUnitTest`<br/><br/>![Run Unit Test](img/unittask.png)|
-|Location of test code|`src/androidTest/kotlin`<br/>![Path](img/uitest_path.png)|`src/test/kotlin`<br/>![Path](img/unittest_path.png)|
+## 📱 Target Application
+<img src="img/screen.png" width="300">
+
+---
 
 ## License
-
-MIT
+Distributed under the MIT License. See `LICENSE` for more information.
